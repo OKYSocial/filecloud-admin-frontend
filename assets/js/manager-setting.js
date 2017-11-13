@@ -2,7 +2,7 @@
 var Mpwd = '';
 $('#admName').val(getCookie('username'));
 $.ajax({
-	url:'Mpassword.json',
+	url:'data/Mpassword.json',
 	type:'get',
 	dataType:'json',
 	success:function(data){
