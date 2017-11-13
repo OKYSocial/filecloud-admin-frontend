@@ -29,7 +29,7 @@ $("#Msub").on("click",function () {
         Musername=$("#username").val();
         Mpassword=$("#pwd").val();
         $.ajax({
-            url:"Mpassword.json",
+            url:"data/Mpassword.json",
             type:"get",
             dataType:"json",
             success:function (data) {
